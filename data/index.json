@@ -1,0 +1,53 @@
+{
+  "title": "Travlr Getaways",
+  "adbox": {
+    "image": "images/sea-sound.jpg",
+    "imageAlt": "Img",
+    "heading": "Enjoy the Summer with Us!",
+    "description": "This website template has been designed by Free Website Templates for you, for free."
+  },
+  "blog": [
+    {
+      "title": "2023 Best Beaches Contest Winners",
+      "date": "April 02, 2023",
+      "excerpt": "Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc nisi mi, elementum sit amet..."
+    },
+    {
+      "title": "Top 10 Diving Spots",
+      "date": "May 29, 2023",
+      "excerpt": "Maecenas scelerisque odio quis arcu fringilla malesuada. Nulla facilisi. In libero nulla, fermentum ut pretium ac, pharetra et eros..."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "In hac habitasse platea dictumst. Integer purus justo, egestas eu consectetur eu, cursus in tortor. Quisque nec nunc ac mi ultrices iaculis. Aenean quis elit mauris, nec vestibulum lorem.",
+      "author": "Juan De La Cruz"
+    }
+  ],
+  "sidebar": [
+    {
+      "link": "rooms.html",
+      "image": "images/rooms.png",
+      "imageAlt": "Rooms"
+    },
+    {
+      "link": "dives.html",
+      "image": "images/dive-site.png",
+      "imageAlt": "Dive Site"
+    },
+    {
+      "link": "foods.html",
+      "image": "images/food.png",
+      "imageAlt": "Food"
+    }
+  ],
+  "navigation": [
+    { "label": "Home", "link": "/index", "selected": true },
+    { "label": "Travel", "link": "/travel" },
+    { "label": "Rooms", "link": "/rooms" },
+    { "label": "Meals", "link": "/meals" },
+    { "label": "News", "link": "/news" },
+    { "label": "About", "link": "/about" },
+    { "label": "Contact", "link": "/contact" }
+  ]
+}

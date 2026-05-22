@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+<body>
+  <div id="background">
+    <div id="page">
+      {{> header}}
+      <div id="contents">
+        <div class="box">
+          <div>
+            <div class="body">
+              <h1>{{heading}}</h1>
+              <h2>{{subheading}}</h2>
+              {{#each intro}}
+              <p>{{this}}</p>
+              {{/each}}
+              <hr>
+              <div class="ads">
+                <h2>{{crews.heading}}</h2>
+                <p>{{crews.description}}</p>
+                <h2>{{amenities.heading}}</h2>
+                <p>{{amenities.description}}</p>
+              </div>
+              <h2>{{community.heading}}</h2>
+              <p>{{community.description}}</p>
+              <h2>{{templateDetails.heading}}</h2>
+              <p>{{templateDetails.description}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{> footer}}
+  </div>
+</body>
+</html>
